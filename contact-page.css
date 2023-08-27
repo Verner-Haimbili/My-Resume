@@ -717,7 +717,7 @@ body {
 }
 
 
-.contact-section-HmK {
+.contact-main-section {
     align-items: center;
     background-color: #ffffff;
     border-radius: 2rem;
@@ -730,14 +730,14 @@ body {
     padding: 2.8rem 5.4rem 3.8rem 7.2rem;
     width: 82rem;
 
-    .contact-heading-ojf {
+    .contact-main-heading {
         align-items: center;
         display: flex;
         flex-shrink: 0;
         margin: 0rem 23.9rem 2rem 0rem;
         width: calc(100% - 23.9rem);
 
-        .contact-8X3 {
+        .contact-title {
             color: #0b0909;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -749,7 +749,7 @@ body {
             white-space: nowrap;
         }
 
-        .line-5-ekH {
+        .line-decoration {
             flex-shrink: 0;
             height: 0.2rem;
             object-fit: contain;

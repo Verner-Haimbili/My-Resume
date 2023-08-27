@@ -718,7 +718,7 @@ body {
 }
 
 
-.work-section-UcR {
+.work-section-main {
     align-items: center;
     background-color: #ffffff;
     border-radius: 2rem;
@@ -766,7 +766,7 @@ body {
         flex-shrink: 0;
         margin: 0rem 0rem 1.6rem 19.1rem;
 
-        .category-item.all {
+        .category-item-all {
             color: #fa5252;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -776,7 +776,7 @@ body {
             white-space: nowrap;
         }
 
-        .category-item.app-development {
+        .category-item-app-development {
             color: #57657a;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -786,7 +786,7 @@ body {
             white-space: nowrap;
         }
 
-        .category-item.web-development {
+        .category-item-web-development {
             color: #57657a;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -796,7 +796,7 @@ body {
             white-space: nowrap;
         }
 
-        .category-item.design {
+        .category-item-design {
             color: #57657a;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -806,7 +806,7 @@ body {
             white-space: nowrap;
         }
 
-        .category-item.mentorship {
+        .category-item-mentorship {
             color: #57657a;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -817,14 +817,14 @@ body {
         }
     }
 
-    .porfolio-cards-yjX {
+    .porfolio-cards {
         align-items: flex-start;
         display: flex;
         flex-shrink: 0;
         height: 51.4rem;
         width: 100%;
 
-        .auto-group-hkvf-XW9 {
+        .auto-group {
             align-items: center;
             display: flex;
             flex-direction: column;
@@ -834,7 +834,7 @@ body {
             row-gap: 3.2rem;
             width: 35rem;
 
-            .app-development-card-TPo {
+            .app-development-card {
                 background-color: #ffe3bf;
                 border-radius: 0.8rem;
                 box-sizing: border-box;
@@ -844,7 +844,7 @@ body {
                 padding: 0.8rem;
                 width: 100%;
 
-                .rectangle-20-bF7 {
+                .rectangle-image {
                     border-radius: 0.8rem;
                     flex-shrink: 0;
                     height: 10rem;
@@ -854,7 +854,7 @@ body {
                     width: 33.4rem;
                 }
 
-                .app-development-KS1 {
+                .app-development-title {
                     color: rgba(26, 16, 3, 0.5);
                     flex-shrink: 0;
                     font-family: Poppins, 'Source Sans Pro';
@@ -864,7 +864,7 @@ body {
                     white-space: nowrap;
                 }
 
-                .smart-bank-app-3N1 {
+                .smart-bank-app {
                     color: #1a1003;
                     flex-shrink: 0;
                     font-family: Poppins, 'Source Sans Pro';
@@ -875,7 +875,7 @@ body {
                 }
             }
 
-            .ui-ux-card-AhX {
+            .ui-ux-card {
                 background-color: #fff4e5;
                 border-radius: 0.8rem;
                 box-sizing: border-box;
@@ -885,7 +885,7 @@ body {
                 padding: 0.8rem;
                 width: 100%;
 
-                .rectangle-20-uf7 {
+                .rectangle-image2 {
                     background-image: url('/api/prod-ap-southeast-1-first-cluster/projects/TTB89iWciSCMwQrTfkpgWm/files/image/ca2fe379101f815f9cc75f171e53c6d5c647cce9');
                     background-position: 0 -3.4375rem;
                     background-size: 100% 168.75%;
@@ -897,13 +897,13 @@ body {
                     width: 33.4rem;
                 }
 
-                .auto-group-851j-kQq {
+                .auto-group-a {
                     flex-shrink: 0;
                     height: 2.9rem;
                     position: relative;
                     width: 5.5rem;
 
-                    .rental-JBT {
+                    .rental-title {
                         color: #1a1003;
                         font-family: Poppins, 'Source Sans Pro';
                         font-size: 1.6rem;
@@ -917,7 +917,7 @@ body {
                         width: 5.5rem;
                     }
 
-                    .ui-ux-zpy {
+                    .ui-ux-title {
                         color: rgba(26, 16, 3, 0.5);
                         font-family: Poppins, 'Source Sans Pro';
                         font-size: 1rem;
@@ -933,7 +933,7 @@ body {
                 }
             }
 
-            .web-development-card-W2d {
+            .web-development-card {
                 background-color: #ffeed9;
                 border-radius: 0.8rem;
                 box-sizing: border-box;
@@ -943,7 +943,7 @@ body {
                 padding: 0.8rem;
                 width: 100%;
 
-                .rectangle-21-ePj {
+                .rectangle-image3 {
                     background-image: url('/api/prod-ap-southeast-1-first-cluster/projects/TTB89iWciSCMwQrTfkpgWm/files/image/f20f791c58067a7a8b8965bd1db5aacde10693dd');
                     background-position: 0.1113rem -0.5585rem;
                     background-size: 100% 169.169%;
@@ -955,13 +955,13 @@ body {
                     width: 33.4rem;
                 }
 
-                .auto-group-xpyd-XiR {
+                .auto-group-b {
                     flex-shrink: 0;
                     height: 2.9rem;
                     position: relative;
                     width: 9.3rem;
 
-                    .ideaflow-Gg1 {
+                    .ideaflow-title {
                         color: #1a1003;
                         font-family: Poppins, 'Source Sans Pro';
                         font-size: 1.6rem;
@@ -975,7 +975,7 @@ body {
                         width: 7.1rem;
                     }
 
-                    .web-development-Nyw {
+                    .web-development-title {
                         color: rgba(26, 16, 3, 0.5);
                         font-family: Poppins, 'Source Sans Pro';
                         font-size: 1rem;
@@ -992,95 +992,86 @@ body {
             }
         }
 
-        .auto-group-xh37-dQ5 {
+        .card-group {
             align-items: center;
             display: flex;
             flex-direction: column;
             flex-shrink: 0;
             width: 35rem;
-
-            .blog-card-AQ1 {
-                background-color: #ffeed9;
-                border-radius: 0.8rem;
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: column;
-                flex-shrink: 0;
-                margin-bottom: 3.2rem;
-                padding: 0.8rem 0.8rem 0.6rem 0.8rem;
-                width: 100%;
-
-                .rectangle-22-sZK {
-                    border-radius: 0.8rem;
-                    flex-shrink: 0;
-                    height: 15rem;
-                    margin-bottom: 0.4rem;
-                    object-fit: cover;
-                    vertical-align: top;
-                    width: 33.4rem;
-                }
-
-                .blog-Q3T {
-                    color: rgba(26, 16, 3, 0.5);
-                    flex-shrink: 0;
-                    font-family: Poppins, 'Source Sans Pro';
-                    font-size: 1rem;
-                    font-weight: 400;
-                    line-height: 1.6;
-                    white-space: nowrap;
-                }
-
-                .nextjs-wp5 {
-                    color: #1a1003;
-                    flex-shrink: 0;
-                    font-family: Poppins, 'Source Sans Pro';
-                    font-size: 1.6rem;
-                    font-weight: 400;
-                    line-height: 1;
-                    white-space: nowrap;
-                }
-            }
-
-            .mentorship-card-sSq {
-                background-color: #ffe3bf;
-                border-radius: 0.8rem;
-                box-sizing: border-box;
-                display: flex;
-                flex-direction: column;
-                flex-shrink: 0;
-                padding: 0.8rem;
-                width: 100%;
-
-                .rectangle-24-DWh {
-                    border-radius: 0.8rem;
-                    flex-shrink: 0;
-                    height: 15rem;
-                    margin-bottom: 0.2rem;
-                    object-fit: cover;
-                    vertical-align: top;
-                    width: 33.4rem;
-                }
-
-                .mentorship-9fF {
-                    color: rgba(26, 16, 3, 0.5);
-                    flex-shrink: 0;
-                    font-family: Poppins, 'Source Sans Pro';
-                    font-size: 1rem;
-                    font-weight: 400;
-                    line-height: 1.6;
-                    white-space: nowrap;
-                }
-
-                .tech-mentor-4XK {
-                    color: #1a1003;
-                    flex-shrink: 0;
-                    font-family: Poppins, 'Source Sans Pro';
-                    font-size: 1.6rem;
-                    font-weight: 400;
-                    line-height: 1;
-                    white-space: nowrap;
-                }
-            }
         }
+
+        .blog-card {
+            background-color: #ffeed9;
+            border-radius: 0.8rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin-bottom: 3.2rem;
+            padding: 0.8rem;
+            width: 100%;
+        }
+
+        .card-image {
+            border-radius: 0.8rem;
+            flex-shrink: 0;
+            height: 15rem;
+            margin-bottom: 0.4rem;
+            object-fit: cover;
+            vertical-align: top;
+            width: 33.4rem;
+        }
+
+        .card-label {
+            color: rgba(26, 16, 3, 0.5);
+            flex-shrink: 0;
+            font-family: Poppins, 'Source Sans Pro';
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.6;
+            white-space: nowrap;
+        }
+
+        .card-title {
+            color: #1a1003;
+            flex-shrink: 0;
+            font-family: Poppins, 'Source Sans Pro';
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .mentorship-card {
+            background-color: #ffe3bf;
+            border-radius: 0.8rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            padding: 0.8rem;
+            width: 100%;
+        }
+
+        .card-label {
+            color: rgba(26, 16, 3, 0.5);
+            flex-shrink: 0;
+            font-family: Poppins, 'Source Sans Pro';
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.6;
+            white-space: nowrap;
+        }
+
+        .card-title {
+            color: #1a1003;
+            flex-shrink: 0;
+            font-family: Poppins, 'Source Sans Pro';
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
     }
 }

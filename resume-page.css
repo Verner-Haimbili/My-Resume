@@ -719,7 +719,7 @@ body {
 }
 
 
-.resume-section-N5f {
+.resume-main-section {
   align-items: center;
   background-color: #ffffff;
   border-radius: 2rem;
@@ -730,7 +730,7 @@ body {
   margin-right: 0.2rem;
   width: 82rem;
 
-  .auto-group-jofp-eYy {
+  .auto-group-1 {
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -739,14 +739,14 @@ body {
     padding: 2.8rem 11.107rem 3.586rem 7.2rem;
     width: 100%;
 
-    .resume-heading-Nzm {
+    .resume-heading {
       align-items: center;
       display: flex;
       flex-shrink: 0;
       margin: 0rem 18.393rem 2.3rem 0rem;
       width: calc(100% - 18.393rem);
 
-      .resume-iHw {
+      .resume-main-title {
         color: #0b0909;
         flex-shrink: 0;
         font-family: Poppins, 'Source Sans Pro';
@@ -758,7 +758,7 @@ body {
         white-space: nowrap;
       }
 
-      .line-5-3LD {
+      .line-decoration {
         flex-shrink: 0;
         height: 0.2rem;
         object-fit: contain;
@@ -767,13 +767,13 @@ body {
       }
     }
 
-    .education-experience-details-nob {
+    .education-experience-details {
       display: flex;
       flex-direction: column;
       flex-shrink: 0;
       width: 100%;
 
-      .education-experience-heading-wgV {
+      .education-experience-heading {
         align-items: center;
         display: flex;
         flex-shrink: 0;
@@ -781,7 +781,7 @@ body {
         margin: 0rem 9.796rem 2.1rem 0rem;
         width: calc(100% - 9.7961rem);
 
-        .education-heading-3Dj {
+        .education-main-heading {
           align-items: center;
           box-sizing: border-box;
           display: flex;
@@ -790,7 +790,7 @@ body {
           margin-right: 15.9rem;
           padding-left: 0.1156rem;
 
-          .icon-park-outline-degree-hat-PHb {
+          .icon-park-outline-degree {
             flex-shrink: 0;
             height: 1.7336rem;
             margin: 0rem 1.153rem 0.001rem 0rem;
@@ -799,7 +799,7 @@ body {
             width: 2.4297rem;
           }
 
-          .education-ezD {
+          .education-main-title {
             color: #000000;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -811,7 +811,7 @@ body {
           }
         }
 
-        .experience-heading-b8m {
+        .experience-heading {
           align-items: center;
           box-sizing: border-box;
           display: flex;
@@ -819,7 +819,7 @@ body {
           height: 100%;
           padding-left: 0.4621rem;
 
-          .humbleicons-briefcase-k1f {
+          .humbleicons-briefcase {
             flex-shrink: 0;
             height: 1.8492rem;
             margin: 0.001rem 1.387rem 0rem 0rem;
@@ -828,7 +828,7 @@ body {
             width: 1.8492rem;
           }
 
-          .experience-Rdb {
+          .experience-main-title {
             color: #000000;
             flex-shrink: 0;
             font-family: Poppins, 'Source Sans Pro';
@@ -841,7 +841,7 @@ body {
         }
       }
 
-      .auto-group-8gpy-MXF {
+      .auto-group-auto {
         align-items: center;
         display: flex;
         flex-shrink: 0;
@@ -849,7 +849,7 @@ body {
         margin-bottom: 2.4rem;
         width: 100%;
 
-        .moringa-card-VtM {
+        .education-card1 {
           background-color: #ffe3bf;
           border-radius: 0.9246rem;
           box-sizing: border-box;
@@ -859,11 +859,11 @@ body {
           padding: 2.427rem 0.925rem 2.381rem 0.925rem;
           width: 28.893rem;
 
-          .moringa-details-dDs {
+          .education-more-details {
             height: 100%;
             width: 15.6rem;
 
-            .item-2020-2021-nMf {
+            .duration-1 {
               color: rgba(26, 16, 3, 0.5);
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -873,7 +873,7 @@ body {
               white-space: nowrap;
             }
 
-            .software-development-HpD {
+            .course-1 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -883,7 +883,7 @@ body {
               white-space: nowrap;
             }
 
-            .moringa-school-pZF {
+            .Institution-1 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -894,7 +894,7 @@ body {
           }
         }
 
-        .technical-mentor-vsB {
+        .experience-card1 {
           background-color: #ffeed9;
           border-radius: 0.9246rem;
           box-sizing: border-box;
@@ -903,11 +903,11 @@ body {
           padding: 2.427rem 0.925rem 2.381rem 0.925rem;
           width: 28.893rem;
 
-          .technical-mentor-details-4iV {
+          .experience-details-1 {
             height: 100%;
             width: 11.4rem;
 
-            .present-DLV {
+            .exp-duration-1 {
               color: rgba(26, 16, 3, 0.5);
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -917,7 +917,7 @@ body {
               white-space: nowrap;
             }
 
-            .technical-mentor-Ydf {
+            .job-title {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -927,7 +927,7 @@ body {
               white-space: nowrap;
             }
 
-            .moringa-school-svq {
+            .job-place {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -939,14 +939,14 @@ body {
         }
       }
 
-      .auto-group-jymp-aaM {
+      .auto-group-educard2 {
         align-items: center;
         display: flex;
         flex-shrink: 0;
         height: 11.5572rem;
         width: 100%;
 
-        .masinde-card-XkV {
+        .education-card2 {
           background-color: #ffeed9;
           border-radius: 0.9246rem;
           box-sizing: border-box;
@@ -956,11 +956,11 @@ body {
           padding: 2.427rem 0.925rem 2.381rem 0.925rem;
           width: 28.893rem;
 
-          .university-details-qFP {
+          .education-details-2 {
             height: 100%;
             width: 17.4rem;
 
-            .item-2012-2016-Bq3 {
+            .education-duration2 {
               color: rgba(26, 16, 3, 0.5);
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -970,7 +970,7 @@ body {
               white-space: nowrap;
             }
 
-            .disaster-management-vGq {
+            .course-2 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -980,7 +980,7 @@ body {
               white-space: nowrap;
             }
 
-            .masinde-muliro-universiity-4dw {
+            .Institution-2 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -991,7 +991,7 @@ body {
           }
         }
 
-        .village-2-nation-PRK {
+        .experience-card2 {
           background-color: #ffe3bf;
           border-radius: 0.9246rem;
           box-sizing: border-box;
@@ -1000,11 +1000,11 @@ body {
           padding: 2.427rem 0.925rem 2.381rem 0.925rem;
           width: 28.893rem;
 
-          .moringa-details-iyP {
+          .experience-details-2 {
             height: 100%;
             width: 15.1rem;
 
-            .item-2021-2022-gQR {
+            .experience-duration-2 {
               color: rgba(26, 16, 3, 0.5);
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -1014,7 +1014,7 @@ body {
               white-space: nowrap;
             }
 
-            .website-development-C7s {
+            .job-title-2 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -1024,7 +1024,7 @@ body {
               white-space: nowrap;
             }
 
-            .village-2-nation-Xvq {
+            .job-place2 {
               color: #000000;
               font-family: Raleway, 'Source Sans Pro';
               font-size: 1.3869rem;
@@ -1038,7 +1038,7 @@ body {
     }
   }
 
-  .skills-section-S2D {
+  .skills-section {
     background-color: #f8fbfb;
     border-radius: 0 0 0.8rem 0.8rem;
     box-sizing: border-box;
@@ -1047,20 +1047,20 @@ body {
     padding: 0rem 12.9rem 0rem 7.2rem;
     width: 100%;
 
-    .work-soft-skills-Ayo {
+    .skills-work {
       display: flex;
       flex-direction: column;
       height: 22.2rem;
       width: 100%;
 
-      .auto-group-wwjy-X3f {
+      .auto-group-skill-type {
         align-items: center;
         display: flex;
         flex-shrink: 0;
         margin: 0rem 13.3rem 0.8rem 0rem;
         width: calc(100% - 13.3rem);
 
-        .work-skills-rbj {
+        .work-skills {
           color: #000000;
           flex-shrink: 0;
           font-family: Poppins, 'Source Sans Pro';
@@ -1072,7 +1072,7 @@ body {
           white-space: nowrap;
         }
 
-        .soft-skills-and {
+        .soft-skills {
           color: #000000;
           flex-shrink: 0;
           font-family: Poppins, 'Source Sans Pro';
@@ -1084,21 +1084,21 @@ body {
         }
       }
 
-      .skills--upu {
+      .skills-list {
         border-radius: 0.8rem;
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
         width: 100%;
 
-        .auto-group-ifiy-GQZ {
+        .auto-group-work {
           align-items: center;
           display: flex;
           flex-shrink: 0;
           height: 3.2rem;
           margin: 0rem 0rem 1.3rem 0.1rem;
 
-          .work-expertise-C3K {
+          .work-expertise-1 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1117,7 +1117,7 @@ body {
             width: 5.9rem;
           }
 
-          .work-expertise-sfF {
+          .work-expertise-2 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1136,7 +1136,7 @@ body {
             width: 6.1rem;
           }
 
-          .work-expertise-xRo {
+          .work-expertise-3 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1155,7 +1155,7 @@ body {
             width: 6.1rem;
           }
 
-          .work-expertise-TdT {
+          .work-expertise-4 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1174,7 +1174,7 @@ body {
             width: 12.5rem;
           }
 
-          .work-expertise-kMf {
+          .work-expertise-5 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1193,13 +1193,13 @@ body {
           }
         }
 
-        .auto-group-u6jb-pMX {
+        .auto-group-soft {
           align-items: flex-start;
           display: flex;
           flex-shrink: 0;
           margin: 0rem 0rem 0.7rem 0.1rem;
 
-          .work-expertise-87K {
+          .soft-expertise-1 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1218,7 +1218,7 @@ body {
             width: 5rem;
           }
 
-          .work-expertise-R6R {
+          .soft-expertise-2 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1237,7 +1237,7 @@ body {
             width: 9rem;
           }
 
-          .work-expertise-unH {
+          .soft-expertise-3 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1256,7 +1256,7 @@ body {
             width: 5.2rem;
           }
 
-          .work-expertise-ocm {
+          .soft-expertise-4 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1275,7 +1275,7 @@ body {
             width: 17.9rem;
           }
 
-          .work-expertise-TSR {
+          .soft-expertise-5 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1295,13 +1295,13 @@ body {
           }
         }
 
-        .auto-group-u9c5-94M {
+        .auto-group-soft2 {
           align-items: flex-start;
           display: flex;
           flex-shrink: 0;
           margin-bottom: 0.1rem;
 
-          .work-expertise-HAZ {
+          .soft-expertise-6 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1320,7 +1320,7 @@ body {
             width: 7.6rem;
           }
 
-          .work-expertise-YsB {
+          .soft-expertise-7 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1339,7 +1339,7 @@ body {
             width: 7.7rem;
           }
 
-          .work-expertise-3Z3 {
+          .soft-expertise-8 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1358,7 +1358,7 @@ body {
             width: 4rem;
           }
 
-          .work-expertise-9MB {
+          .soft-expertise-9 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1377,7 +1377,7 @@ body {
             width: 7rem;
           }
 
-          .work-expertise-Nzd {
+          .soft-expertise-10 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1397,14 +1397,14 @@ body {
           }
         }
 
-        .auto-group-adbw-sgV {
+        .auto-group-soft3 {
           align-items: center;
           column-gap: 3.3rem;
           display: flex;
           flex-shrink: 0;
           height: 3.2rem;
 
-          .work-expertise-RT7 {
+          .soft-expertise-11 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1422,7 +1422,7 @@ body {
             width: 6.2rem;
           }
 
-          .work-expertise-JWu {
+          .soft-expertise-12 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
@@ -1440,7 +1440,7 @@ body {
             width: 6.2rem;
           }
 
-          .work-expertise-1gD {
+          .soft-expertise-13 {
             align-items: center;
             background-color: #e1e8ef;
             border-radius: 0.8rem;
