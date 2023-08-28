@@ -226,7 +226,7 @@ body {
         height: 1.9846rem;
         object-fit: contain;
         vertical-align: top;
-        border-radius: 0.8269rem;
+
       }
     }
   }
@@ -362,7 +362,6 @@ body {
         padding: 1rem;
         height: 100%;
         background-color: #caced4;
-        border-radius: 0.8rem;
         flex-shrink: 0;
 
         .email-open-outline {
@@ -370,7 +369,6 @@ body {
           height: 2.1359rem;
           object-fit: contain;
           vertical-align: top;
-          border-radius: 0.8269rem;
         }
       }
 
@@ -510,12 +508,12 @@ body {
   }
 
   .material-symbols-download-icon {
-    flex-shrink: 0;
-    height: 1.6rem;
-    margin-right: 1.4rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 1.6rem;
+flex-shrink: 0;
+        height: 1.6rem;
+        margin-right: 1.4rem;
+        object-fit: contain;
+        vertical-align: top;
+        width: 1.6rem;
   }
 
   .download-resume-button {

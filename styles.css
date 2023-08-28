@@ -228,7 +228,7 @@ input {
       height: 1.9846rem;
       object-fit: contain;
       vertical-align: top;
-      border-radius: 0.8269rem;
+
     }
   }
 }
@@ -365,7 +365,6 @@ input {
       padding: 1rem;
       height: 100%;
       background-color: #caced4;
-      border-radius: 0.8rem;
       flex-shrink: 0;
 
       .email-open-outline {
@@ -373,7 +372,6 @@ input {
         height: 2.1359rem;
         object-fit: contain;
         vertical-align: top;
-        border-radius: 0.8269rem;
       }
     }
 
@@ -509,6 +507,7 @@ input {
   padding: 0;
   cursor: pointer;
   display: flex;
+
   text-decoration: none;
   align-items: center;
 }
@@ -765,7 +764,6 @@ input {
       white-space: nowrap;
     }
 
-
     .line-decoration {
       flex-shrink: 0;
       height: 1.6rem;
@@ -774,10 +772,14 @@ input {
       vertical-align: top;
       width: 35.2rem;
       margin-left: 5px;
-      ;
+
     }
+
   }
+
+
 }
+
 
 .portfolio-intro {
   color: #000000;
@@ -900,7 +902,6 @@ input {
           margin-right: 1.1rem;
           object-fit: contain;
           vertical-align: top;
-          border-radius: 50%;
           width: 2.4rem;
         }
 
