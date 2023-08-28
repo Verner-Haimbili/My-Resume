@@ -158,6 +158,7 @@ body {
             top: 25.4rem;
             overflow: hidden;
             font-size: 1.6rem;
+            margin-left: -23px;
             font-weight: 800;
             line-height: 2.5;
             color: rgba(10, 9, 8, 0.5);
@@ -175,6 +176,7 @@ body {
             position: absolute;
             left: 5.8rem;
             top: 30rem;
+            margin-left: -10px;
             display: flex;
             align-items: center;
         }
@@ -538,6 +540,10 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     height: 100%;
+}
+
+.link-style {
+    text-decoration: none;
 }
 
 .navbar-container {

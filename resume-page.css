@@ -156,6 +156,7 @@ body {
       position: absolute;
       left: 12.4rem;
       top: 25.4rem;
+      margin-left: -23px;
       overflow: hidden;
       font-size: 1.6rem;
       font-weight: 800;
@@ -176,6 +177,7 @@ body {
       left: 5.8rem;
       top: 30rem;
       display: flex;
+      margin-left: -10px;
       align-items: center;
     }
 
@@ -266,7 +268,6 @@ body {
 
 
   .phone-group {
-
     box-sizing: border-box;
     padding: 0 0.2rem;
     width: 25.6rem;
@@ -540,6 +541,10 @@ body {
   height: 100%;
 }
 
+.link-style {
+  text-decoration: none;
+}
+
 .navbar-container {
   background-color: #f2f7fc;
   border-radius: 2rem;
@@ -550,6 +555,10 @@ body {
   margin-bottom: 1rem;
   padding: 1rem 3.2rem 1rem 3.1rem;
   width: 50.3rem;
+}
+
+.link-style {
+  text-decoration: none;
 }
 
 .nav-cards {
@@ -724,7 +733,6 @@ body {
   white-space: nowrap;
   text-decoration: none;
 }
-
 
 .resume-main-section {
   align-items: center;
