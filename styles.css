@@ -202,7 +202,7 @@ body {
       width: 1.9844rem;
       height: 1.9846rem;
       object-fit: contain;
-
+      background-color: #d1d7dd;
       vertical-align: top;
       border-radius: 1.8269rem;
     }
@@ -259,6 +259,7 @@ body {
     object-fit: contain;
     vertical-align: top;
     width: 1.9844rem;
+    border-radius: 50%;
   }
 }
 
@@ -281,7 +282,7 @@ body {
     width: 15.5rem;
 
     .phone-2 {
-      background-color: #f2f7fc;
+      background-color: #caced4;
       border-radius: 0.8rem;
       box-sizing: border-box;
       flex-shrink: 0;
@@ -290,7 +291,7 @@ body {
       padding: 1rem;
 
       .gridicons-phone {
-        border-radius: 0.8269rem;
+        border-radius: 50%;
         height: 2.4rem;
         object-fit: contain;
         vertical-align: top;
@@ -330,6 +331,7 @@ body {
         line-height: 1.4285714286;
         color: #000000;
         font-family: Raleway, 'Source Sans Pro';
+        text-decoration: none;
         white-space: nowrap;
       }
     }
@@ -357,7 +359,7 @@ body {
       box-sizing: border-box;
       padding: 1rem;
       height: 100%;
-      background-color: #f2f7fc;
+      background-color: #caced4;
       border-radius: 0.8rem;
       flex-shrink: 0;
 
@@ -399,6 +401,7 @@ body {
         top: 75%;
         font-size: 1.4rem;
         font-weight: 600;
+        text-decoration: none;
         line-height: 1.4285714286;
         color: #000000;
         font-family: Raleway, 'Source Sans Pro';
@@ -425,7 +428,7 @@ body {
     width: 14.85rem;
 
     .location-3 {
-      background-color: #f2f7fc;
+      background-color: #caced4;
       border-radius: 0.8rem;
       box-sizing: border-box;
       flex-shrink: 0;
@@ -501,6 +504,7 @@ body {
   padding: 0;
   cursor: pointer;
   display: flex;
+  text-decoration: none;
   align-items: center;
 }
 
@@ -524,6 +528,7 @@ body {
   background: none;
   border: none;
   padding: 0;
+
   cursor: pointer;
 }
 
@@ -593,6 +598,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.6666666667;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -634,6 +640,7 @@ body {
   font-weight: 600;
   line-height: 1.6666666667;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .work-card {
@@ -673,6 +680,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.6666666667;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -748,281 +756,297 @@ body {
       white-space: nowrap;
     }
 
-    .line-Decoration {
+
+    .line-decoration {
       flex-shrink: 0;
-      height: 0.2rem;
+      height: 1.6rem;
       object-fit: contain;
+      size: 40%;
       vertical-align: top;
-      width: 25.2rem;
+      width: 35.2rem;
+      margin-left: 5px;
+      ;
     }
   }
+}
 
-  .portfolio-intro {
-    color: #000000;
+.portfolio-intro {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Raleway, 'Source Sans Pro';
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.875;
+  margin: 0rem 0.2rem 2.6rem 0rem;
+  max-width: 67.5rem;
+}
+
+
+.what-i-do-section {
+  color: #000000;
+  flex-shrink: 0;
+  font-family: Poppins, 'Source Sans Pro';
+  font-size: 3.0rem;
+  font-weight: 500;
+  letter-spacing: 0.08rem;
+  line-height: 1.25;
+  margin: 0rem auto 2.8rem 0rem;
+  white-space: nowrap;
+}
+
+.auto-group-bubs {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 16.9rem;
+  margin-bottom: 2.4rem;
+  width: 100%;
+
+  .web-development-section1 {
+    background-color: #ffebd1;
+    border-radius: 1rem;
+    box-sizing: border-box;
     flex-shrink: 0;
-    font-family: Raleway, 'Source Sans Pro';
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.875;
-    margin: 0rem 0.2rem 2.6rem 0rem;
-    max-width: 67.5rem;
-  }
+    height: 100%;
+    margin-right: 2.7rem;
+    padding: 1.2rem 2.4rem 1.3rem 2.5rem;
+    width: 33.3rem;
 
-
-  .what-i-do-section {
-    color: #000000;
-    flex-shrink: 0;
-    font-family: Poppins, 'Source Sans Pro';
-    font-size: 3.0rem;
-    font-weight: 500;
-    letter-spacing: 0.08rem;
-    line-height: 1.25;
-    margin: 0rem auto 2.8rem 0rem;
-    white-space: nowrap;
-  }
-
-  .auto-group-bubs {
-    align-items: center;
-    display: flex;
-    flex-shrink: 0;
-    height: 16.9rem;
-    margin-bottom: 2.4rem;
-    width: 100%;
-
-    .web-development-section1 {
-      background-color: #ffebd1;
-      border-radius: 1rem;
-      box-sizing: border-box;
-      flex-shrink: 0;
+    .web-development-details {
+      display: flex;
+      flex-direction: column;
       height: 100%;
-      margin-right: 2.7rem;
-      padding: 1.2rem 2.4rem 1.3rem 2.5rem;
-      width: 33.3rem;
+      width: 100%;
 
-      .web-development-details {
+      .web-development-heading {
+        align-items: center;
+        box-sizing: border-box;
         display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
+        flex-shrink: 0;
+        margin-right: 2.4rem;
+        padding: 0.2rem 0rem 0.2rem 0.158rem;
+        width: calc(100% - 2.4rem);
 
-        .web-development-heading {
-          align-items: center;
-          box-sizing: border-box;
-          display: flex;
+        .code-icon-1 {
           flex-shrink: 0;
-          margin-right: 2.4rem;
-          padding: 0.2rem 0rem 0.2rem 0.158rem;
-          width: calc(100% - 2.4rem);
-
-          .code-icon-1 {
-            flex-shrink: 0;
-            height: 1.8rem;
-            margin-right: 1.1582rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 2.084rem;
-          }
-
-          .web-development-main-title {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Poppins, 'Source Sans Pro';
-            font-size: 2.4rem;
-            font-weight: 600;
-            line-height: 0.8333333333;
-            white-space: nowrap;
-          }
+          height: 1.8rem;
+          margin-right: 1.1582rem;
+          object-fit: contain;
+          vertical-align: top;
+          border-radius: 50%;
+          width: 2.084rem;
         }
 
-        .captive-developer-text {
+        .web-development-main-title {
           color: #000000;
           flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.4rem;
-          font-weight: 400;
-          letter-spacing: 0.035rem;
-          line-height: 1.4285714286;
-          max-width: 28.4rem;
-        }
-
-      }
-    }
-
-    .development-section {
-      background-color: #f2f7fc;
-      border-radius: 2rem;
-      box-sizing: border-box;
-      flex-shrink: 0;
-      height: 100%;
-      padding: 1.2rem 3rem 1.3rem 2.9rem;
-      width: 33.3rem;
-
-      .details-section {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-
-        .development-heading {
-          align-items: flex-start;
-          display: flex;
-          flex-shrink: 0;
-          margin-right: 1.8rem;
-          width: calc(100% - 1.8rem);
-
-          .development-icon {
-            flex-shrink: 0;
-            height: 2.4rem;
-            margin-right: 1.1rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 2.4rem;
-          }
-
-          .development-title {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Poppins, 'Source Sans Pro';
-            font-size: 2.4rem;
-            font-weight: 600;
-            line-height: 0.8333333333;
-            white-space: nowrap;
-          }
-        }
-
-        .user-centric-app-building {
-          color: #000000;
-          flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.4rem;
-          font-weight: 400;
-          letter-spacing: 0.035rem;
-          line-height: 1.4285714286;
-          max-width: 27.4rem;
+          font-family: Poppins, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 600;
+          line-height: 0.8333333333;
+          white-space: nowrap;
         }
       }
+
+      .captive-developer-text {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Raleway, 'Source Sans Pro';
+        font-size: 1.4rem;
+        margin-top: 10px;
+        font-weight: 400;
+        letter-spacing: 0.035rem;
+        line-height: 1.4285714286;
+        max-width: 28.4rem;
+      }
+
     }
   }
 
-  .auto-group-ux-ui {
-    align-items: center;
-    display: flex;
+  .development-section {
+    background-color: #f2f7fc;
+    border-radius: 2rem;
+    box-sizing: border-box;
     flex-shrink: 0;
-    height: 16.9rem;
-    width: 100%;
+    height: 100%;
+    padding: 1.2rem 3rem 1.3rem 2.9rem;
+    width: 33.3rem;
 
-    .ui-ux-section {
-      background-color: #f2f7fc;
-      border-radius: 2rem;
-      box-sizing: border-box;
-      flex-shrink: 0;
+    .details-section {
+      display: flex;
+      flex-direction: column;
       height: 100%;
-      margin-right: 2.7rem;
-      padding: 2.4rem 1.4rem 2.5rem 1.8rem;
-      width: 33.3rem;
+      width: 100%;
 
-      .ui-ux-details {
+      .development-heading {
+        align-items: flex-start;
         display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
+        flex-shrink: 0;
+        margin-right: 1.8rem;
+        width: calc(100% - 1.8rem);
 
-        .ui-ux-heading {
-          align-items: center;
-          box-sizing: border-box;
-          display: flex;
+        .development-icon {
           flex-shrink: 0;
-          margin-right: 5.8rem;
-          padding-left: 0.3rem;
-          width: calc(100% - 5.8rem);
-
-          .ux-icon {
-            flex-shrink: 0;
-            height: 1.8rem;
-            margin-right: 1.6rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 1.8rem;
-          }
-
-          .ui-ux-designing {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Poppins, 'Source Sans Pro';
-            font-size: 2.4rem;
-            font-weight: 600;
-            letter-spacing: 0.06rem;
-            line-height: 1.6666666667;
-            white-space: nowrap;
-          }
+          height: 2.4rem;
+          margin-right: 1.1rem;
+          object-fit: contain;
+          vertical-align: top;
+          border-radius: 50%;
+          width: 2.4rem;
         }
 
-        .ux-ui-design-short-text {
+        .development-title {
           color: #000000;
           flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.4rem;
-          font-weight: 400;
-          letter-spacing: 0.035rem;
-          line-height: 1.4285714286;
-          max-width: 30.1rem;
+          font-family: Poppins, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 600;
+          line-height: 0.8333333333;
+          white-space: nowrap;
         }
       }
+
+      .user-centric-app-building {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Raleway, 'Source Sans Pro';
+        font-size: 1.4rem;
+        margin-top: 7px;
+        ;
+        font-weight: 400;
+        letter-spacing: 0.035rem;
+        line-height: 1.4285714286;
+        max-width: 27.4rem;
+      }
     }
+  }
+}
 
-    .mentorship-section {
-      background-color: #ffebd1;
-      border-radius: 2rem;
-      box-sizing: border-box;
-      flex-shrink: 0;
+.auto-group-ux-ui {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 16.9rem;
+  width: 100%;
+
+  .ui-ux-section {
+    background-color: #f2f7fc;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 100%;
+    margin-right: 2.7rem;
+    padding: 2.4rem 1.4rem 2.5rem 1.8rem;
+    width: 33.3rem;
+
+    .ui-ux-details {
+      display: flex;
+      flex-direction: column;
       height: 100%;
-      padding: 1.4rem 2.4rem 1.5rem 2.5rem;
-      width: 33.3rem;
+      width: 100%;
 
-      .mentorship-details {
+      .ui-ux-heading {
+        align-items: center;
+        box-sizing: border-box;
         display: flex;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
+        flex-shrink: 0;
+        margin-right: 5.8rem;
+        padding-left: 0.3rem;
+        width: calc(100% - 5.8rem);
 
-        .mentorship-heading {
-          align-items: center;
-          display: flex;
+        .ux-icon {
           flex-shrink: 0;
-          margin-right: 10.1rem;
-          width: calc(100% - 10.1rem);
-
-          .mentor-icon {
-            flex-shrink: 0;
-            height: 2.4rem;
-            margin-right: 0.8rem;
-            object-fit: contain;
-            vertical-align: top;
-            width: 3rem;
-          }
-
-          .mentorship-main-title {
-            color: #000000;
-            flex-shrink: 0;
-            font-family: Poppins, 'Source Sans Pro';
-            font-size: 2.4rem;
-            font-weight: 600;
-            letter-spacing: 0.06rem;
-            line-height: 1.6666666667;
-            white-space: nowrap;
-          }
+          height: 1.8rem;
+          margin-right: 1.6rem;
+          object-fit: contain;
+          vertical-align: top;
+          margin-top: -20px;
+          width: 1.8rem;
         }
 
-        .mentor-short-text {
+        .ui-ux-designing {
           color: #000000;
           flex-shrink: 0;
-          font-family: Raleway, 'Source Sans Pro';
-          font-size: 1.4rem;
-          font-weight: 400;
-          letter-spacing: 0.035rem;
-          line-height: 1.4285714286;
-          max-width: 28.4rem;
+          font-family: Poppins, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 600;
+          margin-top: -20px;
+          letter-spacing: 0.06rem;
+          line-height: 1.6666666667;
+          white-space: nowrap;
         }
+      }
+
+      .ux-ui-design-short-text {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Raleway, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 0.035rem;
+        line-height: 1.4285714286;
+        max-width: 30.1rem;
+      }
+    }
+  }
+
+  .mentorship-section {
+    background-color: #ffebd1;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 100%;
+    padding: 1.4rem 2.4rem 1.5rem 2.5rem;
+    width: 33.3rem;
+
+    .mentorship-details {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+
+      .mentorship-heading {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        margin-right: 10.1rem;
+        width: calc(100% - 10.1rem);
+
+        .mentor-icon {
+          flex-shrink: 0;
+          height: 2.4rem;
+          margin-right: 0.8rem;
+          border-radius: 50%;
+          margin-top: -20px;
+          object-fit: contain;
+          vertical-align: top;
+          width: 3rem;
+        }
+
+
+        .mentorship-main-title {
+          color: #000000;
+          margin-top: -20px;
+          flex-shrink: 0;
+          font-family: Poppins, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 600;
+          letter-spacing: 0.06rem;
+          line-height: 1.6666666667;
+          white-space: nowrap;
+        }
+      }
+
+      .mentor-short-text {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Raleway, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 300;
+        top: 4px;
+        letter-spacing: 0.035rem;
+        line-height: 1.285714286;
+        max-width: 28.4rem;
       }
     }
   }

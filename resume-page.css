@@ -259,6 +259,7 @@ body {
       height: 1.9436rem;
       object-fit: contain;
       vertical-align: top;
+      border-radius: 50%;
       width: 1.9844rem;
     }
   }
@@ -282,7 +283,7 @@ body {
       width: 15.5rem;
 
       .phone-2 {
-        background-color: #f2f7fc;
+        background-color: #caced4;
         border-radius: 0.8rem;
         box-sizing: border-box;
         flex-shrink: 0;
@@ -291,11 +292,11 @@ body {
         padding: 1rem;
 
         .gridicons-phone {
-          border-radius: 0.8269rem;
           height: 2.4rem;
           object-fit: contain;
           vertical-align: top;
           width: 2.4rem;
+          border-radius: 50%;
         }
       }
 
@@ -331,6 +332,7 @@ body {
           line-height: 1.4285714286;
           color: #000000;
           font-family: Raleway, 'Source Sans Pro';
+          text-decoration: none;
           white-space: nowrap;
         }
       }
@@ -358,7 +360,7 @@ body {
         box-sizing: border-box;
         padding: 1rem;
         height: 100%;
-        background-color: #f2f7fc;
+        background-color: #caced4;
         border-radius: 0.8rem;
         flex-shrink: 0;
 
@@ -403,6 +405,7 @@ body {
           line-height: 1.4285714286;
           color: #000000;
           font-family: Raleway, 'Source Sans Pro';
+          text-decoration: none;
           white-space: nowrap;
         }
       }
@@ -426,7 +429,7 @@ body {
       width: 14.85rem;
 
       .location-3 {
-        background-color: #f2f7fc;
+        background-color: #caced4;
         border-radius: 0.8rem;
         box-sizing: border-box;
         flex-shrink: 0;
@@ -594,6 +597,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.6666666667;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -635,6 +639,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.6666666667;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -675,6 +680,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.6666666667;
+  text-decoration: none;
   white-space: nowrap;
 }
 
@@ -716,6 +722,7 @@ body {
   font-weight: 600;
   line-height: 1.6666666667;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 
@@ -760,10 +767,12 @@ body {
 
       .line-decoration {
         flex-shrink: 0;
-        height: 0.2rem;
+        height: 1.6rem;
         object-fit: contain;
+        size: 40%;
         vertical-align: top;
-        width: 25.2rem;
+        width: 35.2rem;
+        margin-left: 5px;
       }
     }
 
