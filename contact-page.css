@@ -335,9 +335,7 @@ body {
 
                     .phone-number a {
                         text-decoration: none;
-                        /* Remove underline */
                         color: #000000;
-                        /* Set your desired text color */
                     }
                 }
             }
