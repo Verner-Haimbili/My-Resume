@@ -17,7 +17,6 @@ input {
 
 .body {
   width: 134.8rem;
-  transition: all 0.3s;
 }
 
 .landing-page-container {
@@ -86,14 +85,12 @@ input {
   size: 100%;
 }
 
-
 .page-container {
   width: 100%;
   height: 81rem;
   display: flex;
   align-items: flex-end;
   flex-shrink: 0;
-
 
   .profile-section {
     margin-right: 2rem;
@@ -160,7 +157,7 @@ input {
     top: 25.4rem;
     overflow: hidden;
     font-size: 1.6rem;
-    margin-left: -23px;
+    margin-left: -17px;
     font-weight: 800;
     line-height: 2.5;
     color: rgba(10, 9, 8, 0.5);
@@ -270,7 +267,6 @@ input {
 
 
 .phone-group {
-
   box-sizing: border-box;
   padding: 0 0.2rem;
   width: 25.6rem;
@@ -532,7 +528,6 @@ input {
   background: none;
   border: none;
   padding: 0;
-
   cursor: pointer;
 }
 
@@ -731,7 +726,6 @@ input {
   white-space: nowrap;
 }
 
-
 .about-me-section {
   align-items: center;
   background-color: #ffffff;
@@ -772,14 +766,9 @@ input {
       vertical-align: top;
       width: 35.2rem;
       margin-left: 5px;
-
     }
-
   }
-
-
 }
-
 
 .portfolio-intro {
   color: #000000;
